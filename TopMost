@@ -1,0 +1,12 @@
+if (yourcheckbox.Checked)
+            {
+                TopMost = true;//Enable TopMost
+                Properties.Settings.Default.TopMostSetting = true;//Set TopMostSetting to true
+                Properties.Settings.Default.Save();//Save Settings
+            }
+            else
+            {
+                TopMost = false;//Disable TopMost
+                Properties.Settings.Default.TopMostSetting = false;//Set TopMostSetting to false
+                Properties.Settings.Default.Save();//Save Settings
+            }
